@@ -11,7 +11,7 @@ npm install beautify-lint --save-dev
 This package comes with two binaries:
 
 * `beautify-lint`: Checks if code is beautified according to the `.jsbeautifyrc`. Exits with non-zero exit code when any file is not beautified. Prints diff about required changes.
-* `beautify-rewrite`: Rewrittes code according to `.jsbeautifyrc`.
+* `beautify-rewrite`: Rewrites code according to `.jsbeautifyrc`.
 
 Both binaries take globs as params.
 
